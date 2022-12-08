@@ -18,13 +18,22 @@ export default function Footer() {
         padding: "5px",
       }}
     >
-      <a target="_blank" href="https://github.com/bburton5">
+      <a
+        style={{ margin: "10px" }}
+        target="_blank"
+        href="https://github.com/bburton5"
+      >
         <img src={ghlogo} width="35px" />
       </a>
-      <a target="_blank" href="https://www.linkedin.com/in/brookeburton/">
+      <a
+        style={{ margin: "10px" }}
+        target="_blank"
+        href="https://www.linkedin.com/in/brookeburton/"
+      >
         <img src={lilogo} width="35px" />
       </a>
       <a
+        style={{ margin: "10px" }}
         target="_blank"
         href="https://stackexchange.com/users/27185327/brooke-burton"
       >
