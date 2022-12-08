@@ -1,31 +1,47 @@
 import React from "react";
 
 export default function Header() {
-  const styleOne = { border: "5px black", padding: "5px" };
+  const styleOne = { border: "5px black" };
 
   return (
-    <nav className="main-header-menu">
+    <nav style={{ display: "flex" }} className="main-header-menu">
       <section
         style={{
-          display: "flex",
+          display: "inline-flex",
           fontFamily: "arial black",
           flexDirection: "row",
-          alignItems: "flex-start",
-          justifyContent: "flex-start",
           background: "#95A686",
+          width: "100%",
+          justifyContent: "space-between",
+          alignItems: "center",
         }}
       >
-        <div style={styleOne}>
-          <a href="#">About Me</a>
+        <div
+          style={{
+            styleOne,
+            fontSize: "30px",
+            margin: "10px",
+          }}
+        >
+          Brooke Burton
         </div>
-        <div style={styleOne}>
-          <a href="#">Portfolio</a>
-        </div>
-        <div style={styleOne}>
-          <a href="#">Contact</a>
-        </div>
-        <div style={styleOne}>
-          <a href="#">Resume</a>
+        <div
+          style={{
+            display: "inline-flex",
+          }}
+        >
+          <div style={{ styleOne, margin: "10px" }}>
+            <a href="#">About Me</a>
+          </div>
+          <div style={{ styleOne, margin: "10px" }}>
+            <a href="#">Portfolio</a>
+          </div>
+          <div style={{ styleOne, margin: "10px" }}>
+            <a href="#">Contact</a>
+          </div>
+          <div style={{ styleOne, margin: "10px" }}>
+            <a href="#">Resume</a>
+          </div>
         </div>
       </section>
     </nav>
