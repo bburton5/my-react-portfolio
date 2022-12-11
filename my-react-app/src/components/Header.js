@@ -31,18 +31,18 @@ export default function Header() {
             display: "inline-flex",
           }}
         >
-          <div style={{ styleOne, margin: "10px" }}>
+          <div className="hova" style={{ styleOne, margin: "10px" }}>
             <a href="#" onClick={AboutMe}>
               About Me
             </a>
           </div>
-          <div style={{ styleOne, margin: "10px" }}>
+          <div className="hova" style={{ styleOne, margin: "10px" }}>
             <a href="#">Portfolio</a>
           </div>
-          <div style={{ styleOne, margin: "10px" }}>
+          <div className="hova" style={{ styleOne, margin: "10px" }}>
             <a href="#">Contact</a>
           </div>
-          <div style={{ styleOne, margin: "10px" }}>
+          <div className="hova" style={{ styleOne, margin: "10px" }}>
             <a href="#">Resume</a>
           </div>
         </div>

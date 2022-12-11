@@ -1,3 +1,12 @@
+.hova:hover {
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+  text-shadow: 0 0 20px whitesmoke;
+}
+
 .App {
   text-align: center;
 }
