@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./About";
 
 export default function Header() {
   const styleOne = { border: "5px black" };
@@ -31,7 +32,9 @@ export default function Header() {
           }}
         >
           <div style={{ styleOne, margin: "10px" }}>
-            <a href="#">About Me</a>
+            <a href="#" onClick={AboutMe}>
+              About Me
+            </a>
           </div>
           <div style={{ styleOne, margin: "10px" }}>
             <a href="#">Portfolio</a>

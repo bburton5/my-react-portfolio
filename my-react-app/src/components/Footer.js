@@ -16,6 +16,9 @@ export default function Footer() {
         background: "#95A686",
         border: "5px black",
         padding: "5px",
+        bottom: "0",
+        position: "fixed",
+        width: "100%",
       }}
     >
       <a
