@@ -1,5 +1,4 @@
 import React from "react";
-import AboutMe from "./About";
 
 export default function Header() {
   const styleOne = { border: "5px black" };
@@ -8,12 +7,13 @@ export default function Header() {
     <nav style={{ display: "flex" }} className="main-header-menu">
       <section
         style={{
-          display: "inline-flex",
+          display: "flex",
           fontFamily: "arial black",
           flexDirection: "row",
           background: "#95A686",
           width: "100%",
-          justifyContent: "space-between",
+          justifyContent: "center",
+          alignContent: "center",
           alignItems: "center",
         }}
       >
@@ -25,26 +25,6 @@ export default function Header() {
           }}
         >
           Brooke Burton
-        </div>
-        <div
-          style={{
-            display: "inline-flex",
-          }}
-        >
-          <div className="hova" style={{ styleOne, margin: "10px" }}>
-            <a href="#" onClick={AboutMe}>
-              About Me
-            </a>
-          </div>
-          <div className="hova" style={{ styleOne, margin: "10px" }}>
-            <a href="#">Portfolio</a>
-          </div>
-          <div className="hova" style={{ styleOne, margin: "10px" }}>
-            <a href="#">Contact</a>
-          </div>
-          <div className="hova" style={{ styleOne, margin: "10px" }}>
-            <a href="#">Resume</a>
-          </div>
         </div>
       </section>
     </nav>

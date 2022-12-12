@@ -4,7 +4,7 @@
   -ms-transition: text-shadow 0.2s linear;
   -o-transition: text-shadow 0.2s linear;
   transition: text-shadow 0.2s linear;
-  text-shadow: 0 0 20px whitesmoke;
+  text-shadow: 0 0 20px rgb(0, 250, 17);
 }
 
 .App {
