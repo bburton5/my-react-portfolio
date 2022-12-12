@@ -1,3 +1,18 @@
+import resume from "../images/resume.pdf";
+import React from "react";
+
 export default function MyResume() {
-  return <div>testing the Resume tab</div>;
+  return (
+    <React.Fragment>
+      <a href={resume} download="bburtonresume">
+        Click here to download my latest resume!
+      </a>
+      <div>
+        <iframe
+          style={{ height: "200vh", width: "100%" }}
+          src={resume}
+        ></iframe>
+      </div>
+    </React.Fragment>
+  );
 }
