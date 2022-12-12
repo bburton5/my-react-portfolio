@@ -20,8 +20,8 @@ export default function NavigationTabs({ currentTab, handleTabChange }) {
       <Nav.Item className="hova" style={{ styleOne, margin: "10px" }}>
         <Nav.Link
           href="#AboutMe"
-          onClick={() => handleTabChange("About Me")}
-          className={currentTab === "About Me"}
+          onClick={() => handleTabChange("AboutMe")}
+          className={currentTab === "AboutMe"}
         >
           About Me
         </Nav.Link>

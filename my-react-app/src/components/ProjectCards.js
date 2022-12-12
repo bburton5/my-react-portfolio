@@ -10,7 +10,7 @@ export default function PortfolioCard() {
           key={project.uuid}
           style={{
             display: "inline-flex",
-            width: "15 vw",
+            width: "15vw",
             height: "18vw",
             margin: "15px",
           }}

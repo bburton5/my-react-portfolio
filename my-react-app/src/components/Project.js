@@ -8,10 +8,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 export default function Portfolio() {
-  const [currentTab, setCurrentTab] = useState("About Me");
+  const [currentTab, setCurrentTab] = useState("AboutMe");
 
   const renderTab = () => {
-    if (currentTab === "About Me") {
+    if (currentTab === "AboutMe") {
       return <AboutMe />;
     }
     if (currentTab === "Portfolio") {
