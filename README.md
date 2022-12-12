@@ -4,8 +4,8 @@
 
 ## Links
 
-Repo: https://github.com/bburton5/my-react-portfolio
-Deployed App: https://bburton5.github.io/my-react-portfolio/
+- Repo: https://github.com/bburton5/my-react-portfolio
+- Deployed App: https://bburton5.github.io/my-react-portfolio/
 
 ## Usage
 
