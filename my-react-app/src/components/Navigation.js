@@ -1,55 +1,58 @@
+import Nav from "react-bootstrap/Nav";
+
 export default function NavigationTabs({ currentTab, handleTabChange }) {
   const styleOne = { border: "5px black" };
 
   return (
-    <div
+    <Nav
+      variant="pills"
       style={{
         display: "inline-flex",
         fontFamily: "arial black",
         flexDirection: "row",
-        background: "#95A686",
+        background: "white",
         width: "100%",
         justifyContent: "space-between",
         alignItems: "center",
       }}
       className="main-header-menu"
     >
-      <div className="hova" style={{ styleOne, margin: "10px" }}>
-        <a
+      <Nav.Item className="hova" style={{ styleOne, margin: "10px" }}>
+        <Nav.Link
           href="#AboutMe"
           onClick={() => handleTabChange("About Me")}
           className={currentTab === "About Me"}
         >
           About Me
-        </a>
-      </div>
-      <div className="hova" style={{ styleOne, margin: "10px" }}>
-        <a
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item className="hova" style={{ styleOne, margin: "10px" }}>
+        <Nav.Link
           href="#Portfolio"
           onClick={() => handleTabChange("Portfolio")}
           className={currentTab === "Portfolio"}
         >
           Portfolio
-        </a>
-      </div>
-      <div className="hova" style={{ styleOne, margin: "10px" }}>
-        <a
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item className="hova" style={{ styleOne, margin: "10px" }}>
+        <Nav.Link
           href="#Contact"
           onClick={() => handleTabChange("Contact")}
           className={currentTab === "Contact"}
         >
           Contact
-        </a>
-      </div>
-      <div className="hova" style={{ styleOne, margin: "10px" }}>
-        <a
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item className="hova" style={{ styleOne, margin: "10px" }}>
+        <Nav.Link
           href="#Resume"
           onClick={() => handleTabChange("Resume")}
           className={currentTab === "Resume"}
         >
           Resume
-        </a>
-      </div>
-    </div>
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
 }

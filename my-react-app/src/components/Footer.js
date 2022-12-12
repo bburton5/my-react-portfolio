@@ -13,7 +13,7 @@ export default function Footer() {
         flexDirection: "row",
         alignItems: "flex-start",
         justifyContent: "center",
-        background: "#95A686",
+        background: "#1877f2",
         border: "5px black",
         padding: "5px",
         bottom: "0",

@@ -10,7 +10,7 @@ export default function Header() {
           display: "flex",
           fontFamily: "arial black",
           flexDirection: "row",
-          background: "#95A686",
+          background: "#1877f2",
           width: "100%",
           justifyContent: "center",
           alignContent: "center",
