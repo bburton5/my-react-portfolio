@@ -1,7 +1,7 @@
 import React from "react";
-import ghlogo from "../images/ghlogo.png";
-import lilogo from "../images/lilogo.png";
-import sologo from "../images/sologo.png";
+import ghlogo from "../utils/images/ghlogo.png";
+import lilogo from "../utils/images/lilogo.png";
+import sologo from "../utils/images/sologo.png";
 
 export default function Footer() {
   return (

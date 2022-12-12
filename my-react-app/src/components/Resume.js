@@ -1,4 +1,4 @@
-import resume from "../images/resume.pdf";
+import resume from "../utils/images/resume.pdf";
 import React from "react";
 
 export default function MyResume() {

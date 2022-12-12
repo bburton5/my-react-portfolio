@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../images/me.png";
+import me from "../utils/images/me.png";
 
 export default function AboutMe() {
   return (
