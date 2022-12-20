@@ -4,6 +4,7 @@ import project3 from "./utils/images/project3.png";
 import project4 from "./utils/images/project4.png";
 import project5 from "./utils/images/project5.png";
 import project6 from "./utils/images/project6.png";
+import project7 from "./utils/images/project7.png";
 
 const projects = [
   {
