@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.956de883.css",
-    "main.js": "/my-react-portfolio/static/js/main.42213cc4.js",
+    "main.js": "/my-react-portfolio/static/js/main.3a851b81.js",
     "static/media/me.png": "/my-react-portfolio/static/media/me.f137fcf314aa5f84e7ba.png",
     "static/media/project3.png": "/my-react-portfolio/static/media/project3.902591ef391fc6a63c19.png",
     "static/media/project6.png": "/my-react-portfolio/static/media/project6.52d08cacdda0035fcfff.png",
@@ -10,14 +10,15 @@
     "static/media/resume.pdf": "/my-react-portfolio/static/media/resume.a7782de9721ac266b921.pdf",
     "static/media/project2.png": "/my-react-portfolio/static/media/project2.24a7ca9f8488819a47dd.png",
     "static/media/project1.png": "/my-react-portfolio/static/media/project1.47791a5eca58b4ac633b.png",
+    "static/media/project7.png": "/my-react-portfolio/static/media/project7.24cd26c01e6aec5ef226.png",
     "static/media/lilogo.png": "/my-react-portfolio/static/media/lilogo.ba884e1f9ad4362348c1.png",
     "static/media/sologo.png": "/my-react-portfolio/static/media/sologo.2b57c63669410bce761f.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.956de883.css.map": "/my-react-portfolio/static/css/main.956de883.css.map",
-    "main.42213cc4.js.map": "/my-react-portfolio/static/js/main.42213cc4.js.map"
+    "main.3a851b81.js.map": "/my-react-portfolio/static/js/main.3a851b81.js.map"
   },
   "entrypoints": [
     "static/css/main.956de883.css",
-    "static/js/main.42213cc4.js"
+    "static/js/main.3a851b81.js"
   ]
 }
