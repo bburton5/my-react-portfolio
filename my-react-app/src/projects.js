@@ -42,6 +42,12 @@ const projects = [
     repository: "https://github.com/bburton5/README-Generator",
     app: "https://drive.google.com/file/d/1Y9nY_6TLHcSPc5y0dYe10cEb6dimlbL2/view",
   },
+  {
+    title: "Tiletopia Idle Clicker Game",
+    uuid: project7,
+    repository: "https://github.com/Tiletopia/tiletopia",
+    app: "https://mighty-crag-67466.herokuapp.com/",
+  },
 ];
 
 export default projects;
