@@ -18,3 +18,5 @@ This will be used to showcase all my skills, which i will update as i continue t
 - MDN
 - w3schools
 - bootstrap
+
+- ran npm run build
